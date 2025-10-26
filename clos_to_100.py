@@ -15,6 +15,7 @@ def is_bust(turn,not_turn,number):
 
     elif number == 100:
         print(f"{turn} winnnnn!!!")
+        exit("goodbye")
 
 def equal(name1,name2):
     while True:

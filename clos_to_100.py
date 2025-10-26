@@ -17,7 +17,7 @@ def is_bust(turn,not_turn,number):
         print(f"{turn} winnnnn!!!")
         exit("goodbye")
 
-def equal(name1,name2):
+def double_p(name1,name2):
     while True:
 
         print(input(f"{name1} your turn "))
@@ -72,7 +72,7 @@ def menu():
             elif p1["point"] < p2["point"]:
                 exit(f"{p2["name"]} win!!!!!  ")
             else:
-                equal(turn["name"],not_turn["name"])
+                double_p(turn["name"],not_turn["name"])
 
             continue
 
